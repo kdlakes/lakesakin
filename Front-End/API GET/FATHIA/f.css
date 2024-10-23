@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/videos/Screenshot\ 2024-08-26\ 054438.png) no-repeat ;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    left: -20px;
+    margin-right: 50px;
+}
+.wrapper{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    color: wheat;
+    background: transparent;
+    margin-right: 20px;
+    border: solid 2px transparent;
+    border-radius: 20px;
+    box-shadow: 0 0 60px #04ee8c;
+    border-radius: 10px;
+}
+    
+
+.wrapper .form{
+    gap: 20px;
+   
+}
+h3{
+    color: #28fca3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font-weight: bold; 
+    text-align: center;
+    padding-bottom: 15px;
+   
+}
+input {
+    width: 90%;
+    height: 50px;
+    font-size: 1em;
+    color: #04ee8c;
+    padding: 0 10px 0 30px;
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid #04ee8c;
+    outline: none;
+    border-radius: 25px;
+    bottom: 20px;
+    
+    
+}
+.a {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: .1em;
+    color: #04ee8c;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #04ee8c;
+    border-radius: 25px;
+    padding: 7px 130px;
+    margin-left: 20px ;
+    z-index: 1;
+    overflow: hidden;
+    transition: color 1s, box-shadow 1s;
+}
+.a:hover {
+    transition-delay: 0s, 1s;
+    color: #fff;
+    box-shadow:
+        0 0 10px #04ee8c,
+        0 0 20px #04ee8c,
+        0 0 40px #04ee8c,
+        0 0 80px #04ee8c,
+        0 0 160px #04ee8c;
+}
+.a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: #04ee8c;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: 1s;
+}
+.a:hover:before {
+    width: 100%;
+}
+::placeholder{
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #04ee8c;
+    opacity: 0.7;
+}
+pre{
+    padding-left: 25px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #04ee8c;
+    font-weight: bold;
+
+}
+.b{
+    font-size: 20px;
+    color: #04ee8c;
+    text-decoration: none;
+    padding-left: 40%;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

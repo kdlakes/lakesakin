@@ -1,0 +1,131 @@
+body{
+    width: 100vw;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+.product-card{
+    width: 190%;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    border: dashed;    
+    
+}   
+
+.product-card .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 4px rgb(182, 177, 177);
+    border-radius: 20px;
+    gap: 10px;
+    border: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.product-card .card img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.product-card .card h3{
+    font-size: 17px;
+}
+
+.product-card .card .amount{
+    width: 85%;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: gray;
+    color: #fff;
+}
+
+.product-card .card .category{
+    width: 85%;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: gray;
+    color: #fff;
+}
+
+.product-card .card p{
+    font-size: 15px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+
+
+.product-card .car{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 4px rgb(182, 177, 177);
+    border-radius: 20px;
+    gap: 10px;
+    border: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.product-card .car img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.product-card .car h3{
+    font-size: 17px;
+}
+
+.product-card .car .amount{
+    width: 85%;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: gray;
+    color: #fff;
+}
+
+.product-card .car .category{
+    width: 85%;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: gray;
+    color: #fff;
+}
+
+.product-card .car p{
+    font-size: 15px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+
+
